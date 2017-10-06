@@ -53,14 +53,21 @@ gcc pollingBooth.c -pthread -o pollingBooth.out
 #### Input
 
 > N
+>
 > V<sub>0</sub> E<sub>0</sub>
+>
 > V<sub>1</sub> E<sub>1</sub>
+>
 > V<sub>2</sub> E<sub>2</sub>
+>
 > ...
+>
 > V<sub>N-1</sub> E<sub>N-1</sub>
 
 N -> Number of polling booths
+
 V<sub>i</sub> -> Number of voters at booth i
+
 E<sub>i</sub> -> Number of EVMs at booth i
 
 ### Concurrent Merge Sort
