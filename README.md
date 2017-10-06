@@ -22,8 +22,10 @@ Cars push theirs ids into a global queue which is accessed by the attenders conc
 
 #### HOW TO RUN
 
+```
 gcc gasStation.c -pthread -o gasStation.out
 ./gasStation.out
+```
 
 ### The Queue at the Polling Booth
 
@@ -37,8 +39,10 @@ A queue of the free EVMs at a polling booth is maintained. All the voters at eac
 
 #### HOW TO RUN
 
+```
 gcc pollingBooth.c -pthread -o pollingBooth.out
 ./pollingBooth.out
+```
 
 ### Concurrent Merge Sort
 
@@ -52,7 +56,9 @@ The time of the execution of merge sort is appended into files mergeSort-fork_da
 
 #### HOW TO RUN
 
+```
 gcc mergeSort-fork.c -o mergeSort-fork.out
 ./mergeSort-fork.out
 gcc mergeSort-thread.c -pthread -o mergeSort-thread.out
 ./mergeSort-thread.out
+```
